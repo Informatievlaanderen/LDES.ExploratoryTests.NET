@@ -1,0 +1,6 @@
+version: '3'
+services:
+  ldes:
+    image: redpencil/fragmentation-producer
+    ports:
+      - "8888:80"
