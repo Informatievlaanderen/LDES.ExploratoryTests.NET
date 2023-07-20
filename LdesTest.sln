@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ldes.Test", "Ldes.Test\Ldes.Test.csproj", "{75BB7603-1624-4EB8-A4B6-434136132B80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LdesReader", "LdesReader\LdesReader.csproj", "{FB32205C-50B4-4FE9-AEE6-43D51B04039A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbbLdesReader", "AbbLdesReader\AbbLdesReader.csproj", "{6643D865-0382-4C17-AB10-2DF252CBEAC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{75BB7603-1624-4EB8-A4B6-434136132B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75BB7603-1624-4EB8-A4B6-434136132B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75BB7603-1624-4EB8-A4B6-434136132B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB32205C-50B4-4FE9-AEE6-43D51B04039A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB32205C-50B4-4FE9-AEE6-43D51B04039A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB32205C-50B4-4FE9-AEE6-43D51B04039A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB32205C-50B4-4FE9-AEE6-43D51B04039A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6643D865-0382-4C17-AB10-2DF252CBEAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6643D865-0382-4C17-AB10-2DF252CBEAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6643D865-0382-4C17-AB10-2DF252CBEAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6643D865-0382-4C17-AB10-2DF252CBEAC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
