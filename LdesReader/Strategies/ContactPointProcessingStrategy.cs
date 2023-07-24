@@ -1,4 +1,6 @@
 using AbbLdesReader.LdesModels;
+using LdesReader.Models;
+using LdesReader.Models.Ldes;
 
 namespace LdesReader.Strategies;
 

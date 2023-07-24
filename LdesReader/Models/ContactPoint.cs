@@ -1,4 +1,4 @@
-﻿namespace LdesReader;
+﻿namespace LdesReader.Models;
 
 public class ContactPoint
 {
@@ -8,7 +8,6 @@ public class ContactPoint
     public string? Website { get; set; }
     public string? Telephone { get; set; }
     public string? Email { get; set; }
-    public int Page { get; set; }
     public string EventId { get; set; }
     public string EventTimestamp { get; set; }
 }

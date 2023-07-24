@@ -1,5 +1,7 @@
 using AbbLdesReader;
 using AbbLdesReader.LdesModels;
+using LdesReader.Models;
+using LdesReader.Models.Ldes;
 using Newtonsoft.Json.Linq;
 
 namespace LdesReader.Strategies;
@@ -36,10 +38,10 @@ public class PrimarySiteProcessingStrategy : IsVersionOfEventProcessor
 
         var siteAddressId = ldesPrimarySite.SiteAddress;
         if (siteAddressId is not null)
-            primarySite.Address = new ContactPoint
+            primarySite.ContactPoints = siteAddressId.Select(id => new ContactPoint
             {
-                Id = siteAddressId,
-            };
+                Id = id,
+            }).ToArray();
         return primarySite;
     }
 }

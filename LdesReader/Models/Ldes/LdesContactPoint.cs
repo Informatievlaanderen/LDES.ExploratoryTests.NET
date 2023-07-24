@@ -1,6 +1,6 @@
 using AbbLdesReader.LdesModels;
 
-namespace LdesReader;
+namespace LdesReader.Models.Ldes;
 
 public class LdesContactPoint
 {

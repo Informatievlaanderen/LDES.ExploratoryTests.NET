@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Serialization;
 using AbbLdesReader.LdesModels;
 
-namespace LdesReader;
+namespace LdesReader.Models.Ldes;
 
 [DataContract]
 public class LdesOrganisation

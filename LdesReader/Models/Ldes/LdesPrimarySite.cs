@@ -1,7 +1,7 @@
 using System.Runtime.Serialization;
 using AbbLdesReader.LdesModels;
 
-namespace LdesReader;
+namespace LdesReader.Models.Ldes;
 
 [DataContract]
 public class LdesPrimarySite
@@ -18,9 +18,9 @@ public class LdesPrimarySite
             ? value[0].Id
             : null;
 
-    public string? SiteAddress =>
+    public string[]? SiteAddress =>
         LdesObject.Properties.TryGetValue("http://www.w3.org/ns/org#siteAddress", out var value)
-            ? value[0].Id
+            ? value.Select(v => v.Id!).ToArray()
             : null;
 
     public string? GeneratedAtTime =>
